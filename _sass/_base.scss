@@ -77,8 +77,7 @@ aside {
     .navbar-header .navbar-brand {
         color: $theme-primary;
         @include sans-serif-font;
-        font-weight: 700;
-        text-transform: uppercase;
+        font-weight: 600;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
@@ -155,9 +154,9 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header3.jpg');
     text-align: center;
-    color: white;
+    color: black;
     .header-content {
         position: relative;
         text-align: center;
@@ -173,10 +172,9 @@ header {
             hr {
                 margin: 30px auto;
             }
-            p {
-                font-weight: 300;
-                color: rgba(white, .7);
-                font-size: 16px;
+            h3 {
+                font-weight: 700;
+                color: black;
                 margin-bottom: 50px;
             }
         }
